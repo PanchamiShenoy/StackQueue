@@ -20,4 +20,11 @@ public class Queue {
 	public void printQueue() {
 		LinkedList.printMyNodes();
 	}
+
+	/**
+	 * to delete element from queue
+	 */
+	public void pop() {
+		LinkedList.deleteFront();
+	}
 }
