@@ -20,4 +20,20 @@ public class Stack {
 	public void printStack() {
 		LinkedList.printMyNodes();
 	}
+
+	/**
+	 * to get the top most element of the stack
+	 */
+	public void peak() {
+		System.out.println("peak element is " + LinkedList.head.getKey());
+	}
+
+	/**
+	 * to remove elements from the top of the stack
+	 * 
+	 * @return the stack
+	 */
+	public void pop() {
+		LinkedList.deleteFront();
+	}
 }

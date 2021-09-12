@@ -10,6 +10,14 @@ public class StackTest {
 		myStack.push(mySecondNode);
 		myStack.push(myThirdNode);
 		myStack.printStack();
+		myStack.peak();
+		System.out.println("Performing pop operations till the stackis empty!!");
+		myStack.pop();
+		myStack.printStack();
+		myStack.pop();
+		myStack.printStack();
+		myStack.pop();
+		myStack.printStack();
 
 	}
 }
